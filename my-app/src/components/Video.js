@@ -1,6 +1,9 @@
+import './Video.css';
+
 function Video() {
 
     let topic="React JS"
+    let bg='dark';
 
     return (
         <>
@@ -8,7 +11,7 @@ function Video() {
                 src="https://i.imgur.com/MK3eW3As.jpg"
                 alt="Katherine Johnson" />
 
-            <div className="" style={{ backgroundColor: 'red' }}>{topic} Tutorial</div>
+            <div className={bg}>{topic} Tutorial</div>
 
 
         </>

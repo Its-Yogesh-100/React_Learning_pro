@@ -1,12 +1,14 @@
 import Video from './components/Video'
+import './App.css'
 
 function App(){
 
   return(
-    <div>
-      <div>Hello</div>
-      <Video bgColor="red" title="React Js"></Video>    
-      <Video bgColor="green" title="Node js"></Video>    
+    <div className="App">
+      <div>
+      <Video  title="React Js" views="10k" time="1 year ago" ></Video>    
+      <Video  title="Nodee js" views="100k" time="2 year ago"></Video>    
+    </div>
     </div>
   );
 }

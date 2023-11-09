@@ -5,8 +5,8 @@ function App(){
   return(
     <div>
       <div>Hello</div>
-      <Video></Video>
-     
+      <Video title="React Js"></Video>    
+      <Video title="Node js"></Video>    
     </div>
   );
 }

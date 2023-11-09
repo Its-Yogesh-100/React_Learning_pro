@@ -8,7 +8,7 @@ function App(){
       <Video></Video>
      
     </div>
-  )
+  );
 }
 
 export default App;

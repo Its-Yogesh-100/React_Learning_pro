@@ -1,6 +1,6 @@
 import './Video.css';
 
-function Video(props) {
+function Video({title,bgColor}) {
 
     
 
@@ -13,7 +13,7 @@ function Video(props) {
                 src="https://i.imgur.com/MK3eW3As.jpg"
                 alt="Katherine Johnson" />
 
-            <div className={bg}>{props.title}</div>
+            <div className={bg} style={{backgroundColor:bgColor}}>{title}</div>
 
 
         </>

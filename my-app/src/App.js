@@ -5,8 +5,8 @@ function App(){
   return(
     <div>
       <div>Hello</div>
-      <Video title="React Js"></Video>    
-      <Video title="Node js"></Video>    
+      <Video bgColor="red" title="React Js"></Video>    
+      <Video bgColor="green" title="Node js"></Video>    
     </div>
   );
 }

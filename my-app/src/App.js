@@ -1,13 +1,14 @@
+import Video from './components/Video'
 
-import './App.css';
+function App(){
 
-function App() {
-  return (
-    <div className="App-header">
-      Hello World
-      
+  return(
+    <div>
+      <div>Hello</div>
+      <Video></Video>
+     
     </div>
-  );
+  )
 }
 
 export default App;

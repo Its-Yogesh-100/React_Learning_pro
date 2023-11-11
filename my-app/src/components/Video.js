@@ -2,16 +2,11 @@ import './Video.css';
 
 function Video({ title, channel, views, time ,likes="1k",verified}) {
 
-    let channeljsk;
+    
 
-    if(verified)
-    {
-        channeljsk = <div className="channel">  {channel} ✅</div>;
-    }
-    else
-    {
-        channeljsk= <div className="channel">{channel} </div>
-    } 
+       let channeljsk = <div className="channel">  {channel} {verified ? '✅' :null}</div>;
+    
+   
 
     return (
         <>

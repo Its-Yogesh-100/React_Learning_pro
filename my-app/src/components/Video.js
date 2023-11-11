@@ -1,8 +1,7 @@
 import './Video.css';
 
-function Video({ title, channel, views, time ,likes="1k"}) {
+function Video({ title, channel, views, time ,likes="1k",verified}) {
 
-    let verified=true;
     let channeljsk;
 
     if(verified)

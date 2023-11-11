@@ -20,7 +20,7 @@ function App(){
       <div>
       <Video  title="React Js" views="10k" time="1 year ago" channel={c} ></Video>    
       <Video  title="Nodee js" views="100k" time="2 year ago" channel={c}></Video>    
-      <Video></Video> 
+      <Video {...obj}></Video> 
     </div>
 
     

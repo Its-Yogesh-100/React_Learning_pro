@@ -1,7 +1,5 @@
 import Video from './components/Video'
 import './App.css'
-import Pk from './ik/pk'
-
 
 function App(){
 
@@ -25,7 +23,7 @@ function App(){
 
     
 
-    <Pk kite="firangi"></Pk>
+   
       
 
     </div>

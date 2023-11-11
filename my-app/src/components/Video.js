@@ -1,6 +1,6 @@
 import './Video.css';
 
-function Video({ title, channel, views, time }) {
+function Video({ title, channel, views, time ,likes="1k"}) {
 
     return (
 
@@ -9,28 +9,31 @@ function Video({ title, channel, views, time }) {
 
             <div className="container">
 
-            <div className="pic">
-                <img
-                    src="https://i.imgur.com/MK3eW3As.jpg"
-                    alt="Katherine Johnson" />
+                <div className="pic">
+                    <img
+                        src="https://i.imgur.com/MK3eW3As.jpg"
+                        alt="Katherine Johnson" />
 
-            </div>
+                </div>
 
-            <div className="title">
-                {title}
-            </div>
+                <div className="title">
+                    {title}
+                </div>
 
-            <div className="channel">
+                <div className="channel">
 
-                {channel}
+                    {channel}
 
-            </div>
+                </div>
 
-            <div className="views">
+                <div className="views">
 
-                {views}views <span>.</span>{time}
+                    {views} views<span>.</span>{time}
 
-            </div>
+                </div>
+                <div className="channel">
+                    likes {likes}
+                </div>
 
             </div>
         </>

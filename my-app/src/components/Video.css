@@ -2,6 +2,7 @@
     width: 15rem;
     margin: 0 0.2rem;
     float: left;
+  
 }
 
 .pic img{
@@ -14,7 +15,7 @@
 }
 
 .channel, .views{
-    font-size: small;
+    font-size: large;
     color: #ccc;
     margin-bottom: 0.2rem;
 }

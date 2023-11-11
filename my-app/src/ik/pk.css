@@ -1,0 +1,8 @@
+.bg{
+    background-color:tomato;
+    color: blue;
+    float: right;
+    justify-content: center;
+    border: 2px dashed white ;
+    margin: 1em;
+}

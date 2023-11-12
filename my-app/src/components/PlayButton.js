@@ -1,9 +1,19 @@
 import './PlayButton.css'
-function PlayButton(){
+
+function PlayButton({message,children,onClick}){
+
+    function handleClick(){
+
+        onClick();
+    }
 
     return(
 
-        <button onClick={()=>console.log('play')}>Play</button>
+        <>
+        <button onClick={handleClick}>{children}</button>
+       
+        </>
+
 
     )
 }

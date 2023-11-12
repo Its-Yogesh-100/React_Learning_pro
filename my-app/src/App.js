@@ -35,7 +35,8 @@ function App(){
     </div>
 
     <div style={{clear:'both'}}>
-    <PlayButton></PlayButton>
+    <PlayButton message="play re" onClick={()=>console.log("play arrow ")}> play </PlayButton>
+    <PlayButton  message="pause re" onClick={()=>alert("paused")}>pause</PlayButton>
     </div>
         
     </div>

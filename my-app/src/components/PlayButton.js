@@ -1,16 +1,20 @@
 import './PlayButton.css'
 
-function PlayButton({message,children,onClick}){
+function PlayButton({message,children,onPlay,onPause}){
 
+    let status=true;
     function handleClick(){
 
-        onClick();
+        if(status)onPause();
+        else onPlay();
+  
+        status=!status;
     }
 
     return(
 
         <>
-        <button onClick={handleClick}>{children}</button>
+        <button onClick={handleClick}>{children} :{status?'>':'||'}</button>
        
         </>
 
